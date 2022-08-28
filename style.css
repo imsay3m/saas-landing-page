@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+.ml-0{
+    margin-left: 0 !important;
+}
+.mr-0{
+    margin-right: 0 !important;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.navbar{
+    height: 52px;
+}
+.navbar .logo{
+    height: 52px;
+    width: 200px;
+    float: left;
+}
+.navbar .logo img{
+    margin-top: 41px;
+}
+.navbar .menu{
+    height: 52px;
+    width: 600px;
+    float: left;
+}
+.navbar .menu ul{
+    margin-left: 183px;
+}
+.navbar .menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 47px;
+    margin-left: 39px;
+}
+.navbar .menu ul li a{
+    font-family: 'Manrope';
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+.navbar .menu ul li a i{
+    margin: 7px auto 7px 12px
+}
+
+.navbar .nav-button{
+    height: 100px;
+    width: 370px;
+    float: left;
+    text-align: right;
+}
+.navbar .nav-button .signin-btn{
+    color: #000;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 47px;
+    margin-right: 47px;
+}
+.navbar .nav-button .signup-btn{
+    border: 0;
+    padding: 17px 35px;
+    border-radius: 7px;
+    background-color: #3734A9;
+    color: #fff;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+.banner .banner-left{
+    padding-top: 173px;
+    width: 570px;
+    float: left;
+}
+.banner .banner-left .banner-text h1{
+    color: #000;
+    font-family: 'Manrope';
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: -0.03em;
+}
+.banner .banner-left .banner-text p{
+    color: #64607D;
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    margin-top: 22px;
+}
+.banner .banner-left .banner-btn .s-btn .started-btn{
+    margin-top: 26px;
+    border: 0;
+    padding: 15px 35px;
+    border-radius: 47px;
+    background-color: #3734A9;
+    color: #fff;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+}
+.banner .banner-left .banner-btn .s-btn{
+    float: left;
+    margin-right: 50px;
+}
+.banner .banner-left .banner-btn .play-icon{
+    float: left;
+    margin-top: 26px;
+    margin-right: 11px;
+}
+.banner .banner-left .banner-btn .w-btn{
+    float: left;
+    margin-top: 40px;
+}
+.banner .banner-left .banner-btn .w-btn .works-btn{
+    background: transparent;
+    border: 0;
+    color: #3734A9;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+}
+
+.banner .banner-right{
+    width: 600px;
+    float: right;
+}
+.banner .banner-right .banner-image{
+    padding-top: 77px;
+}
+.brand{
+    margin-top: 71px;
+    margin-bottom: 94px;
+}
+.brand .brand-text h5{
+    color: #000;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+.brand .brand-image{
+    width: 1070px;  
+    margin: 0 auto;
+}
+.brand .brand-image img{
+    margin-right: 44px;
+}
+.payment .payment-left{
+    width: 600px;
+    float: left;
+}
+.payment .payment-left img{
+    width: 100%;
+    margin-top: 19px;
+}
+.payment .payment-right{
+    width: 570px;
+    float: left;
+}
+.payment .payment-right h5{
+    margin-bottom: 25px;
+    color: #3734A9;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Manrope';
+    text-transform: uppercase;
+}
+.payment .payment-right h3{
+    margin-bottom: 36px;
+    color: #000;
+    font-family: 'Manrope';
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    font-size: 50px;   
+}
+.payment .payment-right p{
+    margin-bottom: 27px;
+    color: #64607D;
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+}
+.payment .payment-right .started-btn{
+    border-radius: 7px;
+    color: #fff;
+    padding: 15px 35px;
+    background-color: #3734A9;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+
+}
+.cta{
+    border-radius: 20px;
+    background-color: #F3F7FA;
+    overflow: hidden;
+    position: relative;
+    z-index: 4;
+}
+.cta .cta-left{
+    float: left;
+    width: 600px;
+}
+.cta .cta-left .cta-text{
+    width: 530px;
+    padding-top: 76px;
+    padding-bottom: 74px;
+    margin-left: 68px;
+}
+.cta .cta-left .cta-text h5{
+    margin-bottom: 25px;
+    color: #3734A9;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Manrope';
+    text-transform: uppercase;
+}
+.cta .cta-left .cta-text h3{
+    margin-bottom: 36px;
+    color: #000;
+    font-family: 'Manrope';
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    font-size: 50px;
+}
+.cta .cta-left .cta-text p{
+    margin-bottom: 27px;
+    color: #64607D;
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+}
+.cta .cta-right{
+    float: left;
+    width: 570px;
+}
+.cta .cta-right .cta-form{
+    margin-left: 102px;
+    margin-top: 76px;
+}
+.cta .cta-right .cta-form h4{
+    color: #3734A9;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    margin-bottom: 22px;
+}
+.cta .cta-right .cta-form input{
+    height: 60px;
+    width: 356px;
+    border:none;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    background-color: #fff;
+}
+.cta .cta-right .cta-form input::placeholder{
+    color: #64607D;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 22px;
+}
+.cta .cta-right .cta-form input:focus{
+    outline: none;
+}
+.cta .cta-right .cta-form button{
+    padding: 16px 125px;
+    background-color: #FF7F5C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    box-shadow: 0px 67px 80px rgba(255, 127, 92, 0.07), 0px 43.4259px 46.8519px rgba(255, 127, 92, 0.0531481), 0px 25.8074px 25.4815px rgba(255, 127, 92, 0.0425185), 0px 13.4px 13px rgba(255, 127, 92, 0.035), 0px 5.45926px 6.51852px rgba(255, 127, 92, 0.0274815), 0px 1.24074px 3.14815px rgba(255, 127, 92, 0.0168519);
+}
+.cta .cta-right .cta-shape {
+    position: absolute;
+    top: -19px;
+    right: 5px;
+}
