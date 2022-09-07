@@ -1,3 +1,9 @@
+:root{
+    --primary-color:#3734A9;
+    --heading-color:#000;
+    --text-color:#757095;
+    --white-color:#fff;
+}
 *{
     margin: 0;
     padding: 0;
@@ -47,7 +53,7 @@ a, a:hover{
 }
 .navbar .menu ul li a{
     font-family: 'Manrope';
-    color: #000;
+    color: var(--heading-color);
     font-size: 14px;
     font-weight: 400;
 }
@@ -62,7 +68,7 @@ a, a:hover{
     text-align: right;
 }
 .navbar .nav-button .signin-btn{
-    color: #000;
+    color: var(--heading-color);
     font-family: 'Manrope';
     font-weight: 400;
     font-size: 14px;
@@ -74,8 +80,8 @@ a, a:hover{
     border: 0;
     padding: 17px 35px;
     border-radius: 7px;
-    background-color: #3734A9;
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--white-color);
     font-family: 'Manrope';
     font-weight: 600;
     font-size: 14px;
@@ -90,7 +96,7 @@ a, a:hover{
 
 }
 .banner .banner-left .banner-text h1{
-    color: #000;
+    color: var(--heading-color);
     font-family: 'Manrope';
     font-size: 60px;
     font-weight: 800;
@@ -98,7 +104,7 @@ a, a:hover{
     letter-spacing: -0.03em;
 }
 .banner .banner-left .banner-text p{
-    color: #64607D;
+    color: var(--text-color);
     font-family: 'Manrope';
     font-size: 20px;
     font-weight: 400;
@@ -111,8 +117,8 @@ a, a:hover{
     border: 0;
     padding: 15px 35px;
     border-radius: 47px;
-    background-color: #3734A9;
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--white-color);
     font-family: 'Manrope';
     font-weight: 600;
     font-size: 16px;
@@ -136,7 +142,7 @@ a, a:hover{
 .banner .banner-left .banner-btn .w-btn .works-btn{
     background: transparent;
     border: 0;
-    color: #3734A9;
+    color: var(--primary-color);
     font-family: 'Manrope';
     font-weight: 600;
     font-size: 17px;
@@ -146,16 +152,17 @@ a, a:hover{
 
 .banner .banner-right{
     width: 600px;
-}
-.banner .banner-right .banner-image{
     padding-top: 77px;
+}
+.banner .banner-right .banner-image img{
+    width: 100%;
 }
 .brand{
     margin-top: 71px;
     margin-bottom: 94px;
 }
 .brand .brand-text h5{
-    color: #000;
+    color: var(--heading-color);
     font-family: 'Manrope';
     font-weight: 400;
     font-size: 22px;
@@ -185,7 +192,7 @@ a, a:hover{
 }
 .payment .payment-right h5{
     margin-bottom: 25px;
-    color: #3734A9;
+    color: var(--primary-color);
     font-weight: 800;
     font-size: 18px;
     line-height: 25px;
@@ -194,7 +201,7 @@ a, a:hover{
 }
 .payment .payment-right h3{
     margin-bottom: 36px;
-    color: #000;
+    color: var(--heading-color);
     font-family: 'Manrope';
     font-weight: 700;
     line-height: 56px;
@@ -203,7 +210,7 @@ a, a:hover{
 }
 .payment .payment-right p{
     margin-bottom: 27px;
-    color: #64607D;
+    color: var(--text-color);
     font-family: 'Manrope';
     font-size: 20px;
     font-weight: 400;
@@ -212,9 +219,9 @@ a, a:hover{
 }
 .payment .payment-right .started-btn{
     border-radius: 7px;
-    color: #fff;
+    color: var(--white-color);
     padding: 15px 35px;
-    background-color: #3734A9;
+    background-color: var(--primary-color);
     font-family: 'Manrope';
     font-weight: 700;
     font-size: 16px;
@@ -238,7 +245,7 @@ a, a:hover{
 }
 .cta .cta-left .cta-text h5{
     margin-bottom: 25px;
-    color: #3734A9;
+    color: var(--primary-color);
     font-weight: 800;
     font-size: 18px;
     line-height: 25px;
@@ -247,7 +254,7 @@ a, a:hover{
 }
 .cta .cta-left .cta-text h3{
     margin-bottom: 36px;
-    color: #000;
+    color: var(--heading-color);
     font-family: 'Manrope';
     font-weight: 700;
     line-height: 56px;
@@ -256,7 +263,7 @@ a, a:hover{
 }
 .cta .cta-left .cta-text p{
     margin-bottom: 27px;
-    color: #64607D;
+    color: var(--text-color);
     font-family: 'Manrope';
     font-size: 20px;
     font-weight: 400;
@@ -271,7 +278,7 @@ a, a:hover{
     margin-top: 76px;
 }
 .cta .cta-right .cta-form h4{
-    color: #3734A9;
+    color: var(--primary-color);
     font-family: 'Manrope';
     font-weight: 700;
     font-size: 24px;
@@ -285,10 +292,10 @@ a, a:hover{
     border:none;
     border-radius: 5px;
     margin-bottom: 24px;
-    background-color: #fff;
+    background-color: var(--white-color);
 }
 .cta .cta-right .cta-form input::placeholder{
-    color: #64607D;
+    color: var(--text-color);
     font-family: 'Manrope';
     font-weight: 400;
     font-size: 20px;
@@ -301,7 +308,7 @@ a, a:hover{
 .cta .cta-right .cta-form button{
     padding: 16px 125px;
     background-color: #FF7F5C;
-    color: #fff;
+    color: var(--white-color);
     border: none;
     border-radius: 5px;
     font-family: 'Manrope';
@@ -315,4 +322,113 @@ a, a:hover{
     position: absolute;
     top: -19px;
     right: 5px;
+    z-index: 5;
+}
+.feature{
+    display: flex;
+}
+.feature .feature-left{
+    width: 579px;
+    margin-top: 173px;
+}
+.feature .feature-left .feature-text h5{
+    margin-bottom: 25px;
+    color: var(--primary-color);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Manrope';
+    text-transform: uppercase;
+}
+.feature .feature-left .feature-text h3{
+    margin-bottom: 26px;
+    color: var(--heading-color);
+    font-family: 'Manrope';
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    font-size: 50px;
+    max-width: 542px;
+}
+.feature .feature-left .feature-text p{
+    margin-bottom: 27px;
+    color: var(--text-color);
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+}
+.feature .feature-left .feature-btn{
+    border: 0;
+    border-radius: 7px;
+    color: var(--white-color);
+    padding: 15px 35px;
+    background-color: var(--primary-color);
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+}
+
+.feature .feature-right{
+    width: 564px;
+    margin-top: 98px;
+}
+.feature .feature-right img{
+    width: 100%;
+}
+.testomonial{
+
+}
+.testomonial .testomonial-title{
+
+}
+.testomonial .testomonial-title h4{
+    color: var(--primary-color);
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+}
+.testomonial .testomonial-title h3{
+    color: var(--heading-color);
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    max-width: 324px;
+}
+.testomonial .slider-left{
+
+}
+.testomonial .slider-left .image-card{
+
+}
+.testomonial .slider-left .image-card .reviewer-info{
+
+}
+.testomonial .slider-left .image-card .reviewer-info h5{
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: var(--heading-color);
+}
+.testomonial .slider-left .image-card .reviewer-info p{
+    font-family: 'Manrope';
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+.testomonial .slider-left .image-card .reviewer-brand{
+
+}
+.testomonial .slider-right{
+
 }
