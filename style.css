@@ -9,11 +9,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 10px;
+}
 .full-wrapper{
     width: 100%;
 }
 .wrapper{
-    width: 1170px;
+    width: 117rem;
     margin: 0 auto;
 }
 .ml-0{
@@ -32,44 +35,43 @@ ul{
     list-style-type: none;
 }
 .navbar{
-    height: 52px;
+    height: 5.2rem;
     display: flex;
 }
 .navbar .logo{
-    height: 52px;
-    width: 200px;
+    height: 5.2rem;
+    width: 20rem;
 
 }
 .navbar .logo img{
-    margin-top: 41px;
+    margin-top: 4.1rem;
 }
 .navbar .menu{
-    height: 52px;
-    width: 600px;
+    height: 5.2rem;
+    width: 60rem;
 
 }
 .navbar .menu ul{
-    margin-left: 183px;
+    margin-left: 18.3rem;
 }
 .navbar .menu ul li{
-    list-style-type: none;
     display: inline-block;
-    margin-top: 47px;
-    margin-left: 39px;
+    margin-top: 4.7rem;
+    margin-left: 3.9rem;
 }
 .navbar .menu ul li a{
     font-family: 'Manrope';
     color: var(--heading-color);
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 400;
 }
 .navbar .menu ul li a i{
-    margin: 7px auto 7px 12px
+    margin: .7rem auto .7rem 1.2rem;
 }
 
 .navbar .nav-button{
-    height: 100px;
-    width: 370px;
+    height: 10rem;
+    width: 37rem;
 
     text-align: right;
 }
@@ -77,58 +79,58 @@ ul{
     color: var(--heading-color);
     font-family: 'Manrope';
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1.4rem;
     display: inline-block;
-    margin-top: 47px;
-    margin-right: 47px;
+    margin-top: 4.7rem;
+    margin-right: 4.7rem;
 }
 .navbar .nav-button .signup-btn{
     border: 0;
-    padding: 17px 35px;
-    border-radius: 7px;
+    padding: 1.7rem 3.5rem;
+    border-radius: .7rem;
     background-color: var(--primary-color);
     color: var(--white-color);
     font-family: 'Manrope';
     font-weight: 600;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
 }
 .banner{
     display: flex;
 }
 .banner .banner-left{
-    padding-top: 173px;
-    width: 570px;
+    padding-top: 17.3rem;
+    width: 57rem;
 
 }
 .banner .banner-left .banner-text h1{
     color: var(--heading-color);
     font-family: 'Manrope';
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: 800;
-    line-height: 80px;
+    line-height: 8rem;
     letter-spacing: -0.03em;
 }
 .banner .banner-left .banner-text p{
     color: var(--text-color);
     font-family: 'Manrope';
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 3rem;
     letter-spacing: -0.02em;
-    margin-top: 22px;
+    margin-top: 2.2rem;
 }
 .banner .banner-left .banner-btn .s-btn .started-btn{
-    margin-top: 26px;
+    margin-top: 2.6rem;
     border: 0;
-    padding: 15px 35px;
-    border-radius: 47px;
+    padding: 1.5rem 3.5rem;
+    border-radius: 4.7rem;
     background-color: var(--primary-color);
     color: var(--white-color);
     font-family: 'Manrope';
     font-weight: 600;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 1.6rem;
+    line-height: 3rem;
     letter-spacing: -0.02em;
 }
 .banner .banner-left .banner-btn{
@@ -136,14 +138,14 @@ ul{
 }
 .banner .banner-left .banner-btn .s-btn{
     float: left;
-    margin-right: 50px;
+    margin-right: 5rem;
 }
 .banner .banner-left .banner-btn .play-icon{
-    margin-top: 26px;
-    margin-right: 11px;
+    margin-top: 2.6rem;
+    margin-right: 1.1rem;
 }
 .banner .banner-left .banner-btn .w-btn{
-    margin-top: 40px;
+    margin-top: 4rem;
 }
 .banner .banner-left .banner-btn .w-btn .works-btn{
     background: transparent;
@@ -151,287 +153,287 @@ ul{
     color: var(--primary-color);
     font-family: 'Manrope';
     font-weight: 600;
-    font-size: 17px;
-    line-height: 30px;
+    font-size: 1.7rem;
+    line-height: 3rem;
     letter-spacing: -0.02em;
 }
 
 .banner .banner-right{
-    width: 600px;
-    padding-top: 77px;
+    width: 60rem;
+    padding-top: 7.7rem;
 }
 .banner .banner-right .banner-image img{
     width: 100%;
 }
 .brand{
-    margin-top: 71px;
-    margin-bottom: 94px;
+    margin-top: 7.1rem;
+    margin-bottom: 9.4rem;
 }
 .brand .brand-text h5{
     color: var(--heading-color);
     font-family: 'Manrope';
     font-weight: 400;
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 2.2rem;
+    line-height: 3rem;
     text-align: center;
-    margin-bottom: 36px;
+    margin-bottom: 3.6rem;
 }
 .brand .brand-image{
-    width: 1070px;  
+    width: 107rem;  
     margin: 0 auto;
 }
 .brand .brand-image img{
-    margin-right: 44px;
+    margin-right: 4.4rem;
 }
 .payment{
     display: flex;
 }
 .payment .payment-left{
-    width: 600px;
+    width: 60rem;
 }
 .payment .payment-left img{
     width: 100%;
-    margin-top: 19px;
+    margin-top: 1.9rem;
 }
 .payment .payment-right{
-    width: 570px;
+    width: 57rem;
 }
 .payment .payment-right h5{
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
     color: var(--primary-color);
     font-weight: 800;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
     font-family: 'Manrope';
     text-transform: uppercase;
 }
 .payment .payment-right h3{
-    margin-bottom: 36px;
+    margin-bottom: 3.6rem;
     color: var(--heading-color);
     font-family: 'Manrope';
     font-weight: 700;
-    line-height: 56px;
+    line-height: 5.6rem;
     letter-spacing: -0.03em;
-    font-size: 50px;   
+    font-size: 5rem;   
 }
 .payment .payment-right p{
-    margin-bottom: 27px;
+    margin-bottom: 2.7rem;
     color: var(--text-color);
     font-family: 'Manrope';
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 3rem;
     letter-spacing: -0.02em;
 }
 .payment .payment-right .started-btn{
-    border-radius: 7px;
+    border-radius: .7rem;
     color: var(--white-color);
-    padding: 15px 35px;
+    padding: 1.5rem 3.5rem;
     background-color: var(--primary-color);
     font-family: 'Manrope';
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1.6rem;
     letter-spacing: -0.02em;
 }
 .cta{
     display: flex;
-    border-radius: 20px;
+    border-radius: 2rem;
     background-color: #F3F7FA;
     position: relative;
     z-index: 4;
 }
 .cta .cta-left{
-    width: 600px;
+    width: 60rem;
 }
 .cta .cta-left .cta-text{
-    width: 530px;
-    padding-top: 76px;
-    padding-bottom: 74px;
-    margin-left: 68px;
+    width: 53rem;
+    padding-top: 7.6rem;
+    padding-bottom: 7.4rem;
+    margin-left: 6.8rem;
 }
 .cta .cta-left .cta-text h5{
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
     color: var(--primary-color);
     font-weight: 800;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
     font-family: 'Manrope';
     text-transform: uppercase;
 }
 .cta .cta-left .cta-text h3{
-    margin-bottom: 36px;
+    margin-bottom: 3.6rem;
     color: var(--heading-color);
     font-family: 'Manrope';
     font-weight: 700;
-    line-height: 56px;
+    line-height: 5.6rem;
     letter-spacing: -0.03em;
-    font-size: 50px;
+    font-size: 5rem;
 }
 .cta .cta-left .cta-text p{
-    margin-bottom: 27px;
+    margin-bottom: 2.7rem;
     color: var(--text-color);
     font-family: 'Manrope';
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 3rem;
     letter-spacing: -0.02em;
 }
 .cta .cta-right{
-    width: 570px;
+    width: 57rem;
 }
 .cta .cta-right .cta-form{
-    margin-left: 102px;
-    margin-top: 76px;
+    margin-left: 10.2rem;
+    margin-top: 7.6rem;
 }
 .cta .cta-right .cta-form h4{
     color: var(--primary-color);
     font-family: 'Manrope';
     font-weight: 700;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 2.4rem;
+    line-height: 3rem;
     letter-spacing: -0.02em;
-    margin-bottom: 22px;
+    margin-bottom: 2.2rem;
 }
 .cta .cta-right .cta-form input{
-    height: 60px;
-    width: 356px;
+    height: 6rem;
+    width: 35.6rem;
     border:none;
-    border-radius: 5px;
-    margin-bottom: 24px;
+    border-radius: .5rem;
+    margin-bottom: 2.4rem;
     background-color: var(--white-color);
 }
 .cta .cta-right .cta-form input::placeholder{
     color: var(--text-color);
     font-family: 'Manrope';
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    padding-left: 22px;
+    font-size: 2rem;
+    line-height: 3rem;
+    padding-left: 2.2rem;
 }
 .cta .cta-right .cta-form input:focus{
     outline: none;
 }
 .cta .cta-right .cta-form button{
-    padding: 16px 125px;
+    padding: 1.6rem 12.5rem;
     background-color: #FF7F5C;
     color: var(--white-color);
     border: none;
-    border-radius: 5px;
+    border-radius: .5rem;
     font-family: 'Manrope';
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 3rem;
     text-transform: uppercase;
-    box-shadow: 0px 67px 80px rgba(255, 127, 92, 0.07), 0px 43.4259px 46.8519px rgba(255, 127, 92, 0.0531481), 0px 25.8074px 25.4815px rgba(255, 127, 92, 0.0425185), 0px 13.4px 13px rgba(255, 127, 92, 0.035), 0px 5.45926px 6.51852px rgba(255, 127, 92, 0.0274815), 0px 1.24074px 3.14815px rgba(255, 127, 92, 0.0168519);
+    box-shadow: 0 6.7rem 8rem rgba(255, 127, 92, 0.07), 0px 43.4259px 46.8519px rgba(255, 127, 92, 0.0531481), 0px 25.8074px 25.4815px rgba(255, 127, 92, 0.0425185), 0px 13.4px 13px rgba(255, 127, 92, 0.035), 0px 5.45926px 6.51852px rgba(255, 127, 92, 0.0274815), 0px 1.24074px 3.14815px rgba(255, 127, 92, 0.0168519);
 }
 .cta .cta-right .cta-shape {
     position: absolute;
-    top: -19px;
-    right: 5px;
+    top: -1.9rem;
+    right: .5rem;
     z-index: 5;
 }
 .feature{
     display: flex;
 }
 .feature .feature-left{
-    width: 579px;
-    margin-top: 173px;
-    margin-right: 27px;
+    width: 57.9rem;
+    margin-top: 17.3rem;
+    margin-right: 2.7rem;
 }
 .feature .feature-left .feature-text h5{
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
     color: var(--primary-color);
     font-weight: 800;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
     font-family: 'Manrope';
     text-transform: uppercase;
 }
 .feature .feature-left .feature-text h3{
-    margin-bottom: 26px;
+    margin-bottom: 2.6rem;
     color: var(--heading-color);
     font-family: 'Manrope';
     font-weight: 700;
-    line-height: 56px;
+    line-height: 5.6rem;
     letter-spacing: -0.03em;
-    font-size: 50px;
-    max-width: 542px;
+    font-size: 5rem;
+    max-width: 54.2rem;
 }
 .feature .feature-left .feature-text p{
-    margin-bottom: 27px;
+    margin-bottom: 2.7rem;
     color: var(--text-color);
     font-family: 'Manrope';
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 3rem;
     letter-spacing: -0.02em;
 }
 .feature .feature-left .feature-btn{
     border: 0;
-    border-radius: 7px;
+    border-radius: .7rem;
     color: var(--white-color);
-    padding: 15px 35px;
+    padding: 1.5rem 3.5rem;
     background-color: var(--primary-color);
     font-family: 'Manrope';
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1.6rem;
     letter-spacing: -0.02em;
 }
 
 .feature .feature-right{
-    width: 564px;
-    margin-top: 164px;
+    width: 56.4rem;
+    margin-top: 16.4rem;
 }
 .feature .feature-right img{
     width: 100%;
 }
 .testimonial{
-    margin-top: 129px;
+    margin-top: 12.9rem;
     display: flex;
 }
 
 .testimonial .slider-left{
-    width: 730px;
+    width: 73rem;
 }
 .testimonial .slider-left .testimonial-title{
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 .testimonial .slider-left .testimonial-title h4{
     color: var(--primary-color);
     font-family: 'Manrope';
     font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
     letter-spacing: -0.02em;
     text-transform: uppercase;
-    margin-bottom: 13px;
+    margin-bottom: 1.3rem;
 }
 .testimonial .slider-left .testimonial-title h3{
     color: var(--heading-color);
     font-family: 'Manrope';
     font-weight: 800;
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 4rem;
+    line-height: 4.8rem;
     letter-spacing: -0.03em;
-    max-width: 324px;
+    max-width: 32.4rem;
 }
 .testimonial .slider-left .image-card{
-    width: 653px;
-    height: 378px;
+    width: 65.3rem;
+    height: 37.8rem;
     position: relative;
     background-color: #F3F7FA;
-    border-radius: 15px;
+    border-radius: 1.5rem;
 }
 .testimonial .slider-left .image-card .reviewer-info{
     position: absolute;
-    top: 120px;
-    left: 88px;
+    top: 12rem;
+    left: 8.8rem;
 }
 .testimonial .slider-left .image-card .reviewer-info h5{
     font-family: 'Manrope';
     font-weight: 800;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 1.6rem;
+    line-height: 3rem;
     letter-spacing: -0.03em;
     color: var(--heading-color);
 }
@@ -439,8 +441,8 @@ ul{
     font-family: 'Manrope';
     color: var(--text-color);
     font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
     letter-spacing: -0.02em;
 }
 .testimonial .slider-left .image-card .reviewer-image img{
@@ -451,43 +453,43 @@ ul{
 }
 .testimonial .slider-left .image-card .reviewer-brand img{
     position: absolute;
-    bottom: 43px;;
-    left:25px;
+    bottom: 4.3rem;
+    left: 2.5rem;
     z-index: 5;
 }
 .testimonial .slider-left .image-card .shape-1{
     position: absolute;
-    top: 33px;
-    left: -45px;
+    top: 3.3rem;
+    left: -4.5rem;
     z-index: 4;
 }
 .testimonial .slider-left .image-card .shape-2{
     position: absolute;
-    right: -36px;
-    top: 160px;
+    right: -3.6rem;
+    top: 16rem;
     z-index: 6;
 }
 .testimonial .slider-left .image-card .shape-3{
     position: absolute;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
     bottom: 0;
     left: 0;
     z-index: 3;
 }
 .testimonial .slider-left .slider-btn{
-    margin-top: 37px;
+    margin-top: 3.7rem;
 }
 .testimonial .slider-left .slider-btn .slider-left-btn{
     border: 0;
     border-radius: 50%;
-    padding: 13px;
+    padding: 1.3rem;
     background-color: transparent;
 }
 .testimonial .slider-left .slider-btn .slider-right-btn{
     border: 0;
     border-radius: 50%;
-    padding: 13px;
+    padding: 1.3rem;
     background-color: transparent;
 }
 .testimonial .slider-left .slider-btn .slider-left-btn:hover,
@@ -496,11 +498,11 @@ ul{
     color: var(--white-color);
 }
 .testimonial .slider-right{
-    width: 440px;
-    margin-top: 170px;
+    width: 44rem;
+    margin-top: 17rem;
 }
 .testimonial .slider-right .testimonial-text .reviewer-text h4{
-    width: 290px;
+    width: 29rem;
     margin-top: 16px;
     margin-bottom: 16px;
     font-family: 'Manrope';
@@ -513,26 +515,26 @@ ul{
 .testimonial .slider-right .testimonial-text .reviewer-text .para-1{
     font-family: 'Manrope';
     font-weight: 400;
-    font-style: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
     letter-spacing: -0.02em;
     color: var(--text-color);
-    margin-bottom: 33px;
+    margin-bottom: 3.3rem;
 }
 .testimonial .slider-right .testimonial-text .reviewer-text .para-2{
     font-family: 'Manrope';
     font-weight: 400;
-    font-style: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
     letter-spacing: -0.02em;
     color: var(--text-color);
-    margin-bottom: 14px;
+    margin-bottom: 1.4rem;
 }
 .testimonial .slider-right .testimonial-text .reviewer-info h5{
     font-family: 'Manrope';
     font-weight: 800;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 1.6rem;
+    line-height: 3rem;
     letter-spacing: -0.03em;
     color: var(--heading-color);
 }
@@ -540,116 +542,116 @@ ul{
     font-family: 'Manrope';
     color: var(--text-color);
     font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
     letter-spacing: -0.02em;
 }
 .getstarted{
     border: 1px solid #DEE1E6;
-    border-radius: 15px;
+    border-radius: 1.5rem;
     display: flex;
-    margin-top: 63px;
+    margin-top: 6.3rem;
 }
 .getstarted .getstarted-left{
-    width: 795px;
-    margin: 40px 102px 30px 28px;
+    width: 79.5rem;
+    margin: 4rem 10.2rem 3rem 2.8rem;
 }
 .getstarted .getstarted-left p{
     font-family: 'Manrope';
     color: var(--text-color);
     font-weight: 400;
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 2.2rem;
+    line-height: 3.2rem;
     letter-spacing: -0.02em;
 }
 .getstarted .getstarted-right{
-    width: 214px;
-    margin:36px auto; 
-    margin-right: 34px;
+    width: 21.4rem;
+    margin:3.6rem auto; 
+    margin-right: 3.4rem;
 }
 .getstarted .getstarted-right .started-btn{
     border: 0;
-    padding: 17px 62px;
-    border-radius: 47px;
+    padding: 1.7rem 6.2rem;
+    border-radius: 4.7rem;
     background-color: #FF7F5C;
-    box-shadow: 0px 100px 80px rgba(255, 127, 92, 0.07), 0px 64.8148px 46.8519px rgba(255, 127, 92, 0.0531481), 0px 38.5185px 25.4815px rgba(255, 127, 92, 0.0425185), 0px 20px 13px rgba(255, 127, 92, 0.035), 0px 8.14815px 6.51852px rgba(255, 127, 92, 0.0274815), 0px 1.85185px 3.14815px rgba(255, 127, 92, 0.0168519);
+    box-shadow: 0px 10rem 8rem rgba(255, 127, 92, 0.07), 0px 64.8148px 46.8519px rgba(255, 127, 92, 0.0531481), 0px 38.5185px 25.4815px rgba(255, 127, 92, 0.0425185), 0 2rem 1.3rem rgba(255, 127, 92, 0.035), 0 8.14815px 6.51852px rgba(255, 127, 92, 0.0274815), 0 1.85185px 3.14815px rgba(255, 127, 92, 0.0168519);
     color: var(--white-color);
     font-family: 'Manrope';
     font-weight: 600;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 1.6rem;
+    line-height: 3rem;
     letter-spacing: -0.02em;
 }
 .wcu{
     background-color: #F3F7FA;
-    border-radius: 20px;
-    padding-bottom: 58px;
-    margin-bottom: 100px;
+    border-radius: 2rem;
+    padding-bottom: 5.8rem;
+    margin-bottom: 10rem;
     position: relative;
 }
 .wcu .wcu-shape img{
     z-index: 5;
     position: absolute;
-    top: -31px;
-    left: 75px;
+    top: -3.1rem;
+    left: 7.5rem;
 }
 .wcu .wcu-title{
-    padding-top: 56px;
-    padding-bottom: 69px;
+    padding-top: 5.6rem;
+    padding-bottom: 6.9rem;
 }
 .wcu .wcu-title h5{
     font-family: 'Manrope';
     font-weight: 800;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
     color: var(--primary-color);
     text-transform: uppercase;
-    padding-bottom: 14px;
+    padding-bottom: 1.4rem;
 }
 .wcu .wcu-title h3{
     font-family: 'Manrope';
     font-weight: 700;
-    font-size: 50px;
-    line-height: 69px;
+    font-size: 5rem;
+    line-height: 6.9rem;
     letter-spacing: -0.03em;
     color: var(--heading-color);
 }
 .wcu .wcu-items{
-    width: 1010px;
+    width: 101rem;
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
-    gap: 40px;
+    gap: 4rem;
 }
 .wcu .wcu-items .wcu-item{
-    width: 485px;
-    padding-top: 59px;
-    padding-right: 48px;
-    padding-bottom: 37px;
-    padding-left: 30px;
+    width: 48.5rem;
+    padding-top: 5.9rem;
+    padding-right: 4.8rem;
+    padding-bottom: 3.7rem;
+    padding-left: 3rem;
     background: var(--white-color);
-    border-radius: 20px;
+    border-radius: 2rem;
     display: flex;
     flex-direction: row;
-    column-gap: 32px;
+    column-gap: 3.2rem;
 }
 .wcu .wcu-items .wcu-item .wcu-item-text{
-    width: 317px;
+    width: 31.7rem;
 }
 .wcu .wcu-items .wcu-item .wcu-item-text h5{
     font-family: 'Manrope';
     font-weight: 800;
-    line-height: 33px;
-    font-size: 24px;
+    line-height: 3.3rem;
+    font-size: 2.4rem;
     color-scheme: var(--heading-color);
 }
 .wcu .wcu-items .wcu-item .wcu-item-text span{
     display: inline-block;
-    padding-top: 22px;
+    padding-top: 2.2rem;
     font-family: 'Manrope';
     font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.8rem;
+    line-height: 3rem;
     letter-spacing: -0.02em;
     color: var(--text-color);
 }
@@ -659,75 +661,74 @@ ul{
 }
 .newsletter .newsletter-section{
     display: flex;
-    padding-top: 93px;
-    padding-bottom: 56px;
+    padding-top: 9.3rem;
+    padding-bottom: 5.6rem;
 }
 .newsletter .wrapper .newsletter-left{
-    width: 528px;
-    margin-top: 93px;
+    width: 52.8rem;
+    margin-top: 9.3rem;
 }
 .newsletter .wrapper .newsletter-left h5{
-    
     font-family: 'Manrope';
     font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
     text-transform: uppercase;
     color: var(--white-color);
 }
 .newsletter .wrapper .newsletter-left h3{
-    padding-top: 13px;
+    padding-top: 1.3rem;
     font-family: 'Manrope';
     font-weight: 800;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 5rem;
+    line-height: 6rem;
     letter-spacing: -0.03em;
     color: var(--white-color);
 }
 .newsletter .wrapper .newsletter-left p{
-    padding-top: 29px;
-    width: 446px;
+    padding-top: 2.9rem;
+    width: 44.6rem;
     font-family: 'Manrope';
     font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.8rem;
+    line-height: 3rem;
     letter-spacing: -0.02em;
     color: var(--white-color);
 }
 .newsletter .newsletter-right{
-    margin-top: 136px;
-    margin-bottom: 86px;
+    margin-top: 13.6rem;
+    margin-bottom: 8.6rem;
     text-align: end;
 }
 .newsletter .newsletter-right .newsletter-form form input{
-    width: 362px;
-    height: 60px;
-    margin-bottom: 24px;
+    width: 36.2rem;
+    height: 6rem;
+    margin-bottom: 2.4rem;
     border: none;
-    border-radius: 5px;
+    border-radius: .5rem;
     background: hsl(210, 8%, 95%, 20%) ;
 }
 .newsletter .newsletter-right .newsletter-form form input::placeholder{
     color:hsl(248, 41%, 79%, 40%);
     font-family: 'Manrope';
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 2rem;
+    line-height: 3rem;
     letter-spacing: -0.02em;
-    padding-left: 22px;
+    padding-left: 2.2rem;
 }
 .newsletter .newsletter-right .newsletter-form input:focus{
     outline: none;
 }
 .newsletter .newsletter-right .newsletter-form form button{
-    width: 362px;
-    height: 60px;
+    width: 36.2rem;
+    height: 6rem;
     border:none;
-    border-radius: 5px;
+    border-radius: .5rem;
     text-transform: uppercase;
     font-family: 'Manrope';
     font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 1.6rem;
+    line-height: 3rem;
     text-align: center;
     color: var(--white-color);
     background:#FF7F5C;
@@ -737,32 +738,32 @@ ul{
 }
 .footer .footer-section .footer-top{
     display: flex;
-    column-gap: 89px;
-    padding-top: 123px;
-    padding-bottom: 114px;
+    column-gap: 8.9rem;
+    padding-top: 12.3rem;
+    padding-bottom: 11.4rem;
 }
 .footer .footer-section .footer-top .ftop-left{
-    width: 522px;
+    width: 52.2rem;
 }
 .footer .footer-section .footer-top .ftop-left h4{
     text-transform: uppercase;
     font-family: 'Manrope';
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 2rem;
+    line-height: 2rem;
     font-weight: 700;
     color: var(--white-color);
     color: var(--white-color);
-    padding-bottom: 18px;
+    padding-bottom: 1.8rem;
 }
 .footer .footer-section .footer-top .ftop-left p{
     font-family: 'Manrope';
     font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
     color: hsl(0, 0%, 100%, 40%);
 }
 .footer .footer-section .footer-top .ftop-right{
-    width: 522px;
+    width: 52.2rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -771,51 +772,51 @@ ul{
     font-family: 'Manrope';
     color: var(--white-color);
     font-weight: 700;
-    font-size: 21px;
-    line-height: 24px;
-    margin-bottom: 35px;
+    font-size: 2.1rem;
+    line-height: 2.4rem;
+    margin-bottom: 3.5rem;
 }
 .footer .footer-section .footer-top .ftop-right .company ul li a{
     font-family: 'Manrope';
     color: var(--white-color);
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
 }
 
 .footer .footer-section .footer-top .ftop-right .product h5{
     font-family: 'Manrope';
     color: var(--white-color);
     font-weight: 700;
-    font-size: 21px;
-    line-height: 24px;
-    margin-bottom: 35px;
+    font-size: 2.1rem;
+    line-height: 2.4rem;
+    margin-bottom: 3.5rem;
 }
 .footer .footer-section .footer-top .ftop-right .product ul li, .resource ul li, .company ul li{
-    margin-bottom: 12px;
+    margin-bottom: 1.2rem;
 }
 .footer .footer-section .footer-top .ftop-right .product ul li a{
     font-family: 'Manrope';
     color: var(--white-color);
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
 }
 
 .footer .footer-section .footer-top .ftop-right .resource h5{
     font-family: 'Manrope';
     color: var(--white-color);
     font-weight: 700;
-    font-size: 21px;
-    line-height: 24px;
-    margin-bottom: 35px;
+    font-size: 2.1rem;
+    line-height: 2.4rem;
+    margin-bottom: 3.5rem;
 }
 .footer .footer-section .footer-top .ftop-right .resource ul li a{
     font-family: 'Manrope';
     color: var(--white-color);
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
 }
 .footer .footer-section hr{
     border: none;
@@ -827,10 +828,10 @@ ul{
     justify-content: space-between;
 }
 .footer .footer-section .footer-bottom p{
-    padding: 19px 0;
+    padding: 1.9rem 0;
     font-family: 'Manrope';
     font-weight: 700;
-    font-size: 12px;
-    line-height: 26px;
+    font-size: 1.2rem;
+    line-height: 2.6rem;
     color: var(--white-color);
 }
