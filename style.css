@@ -22,8 +22,14 @@
 .mr-0{
     margin-right: 0 !important;
 }
+.text-center{
+    text-align: center !important;
+}
 a, a:hover{
     text-decoration: none;
+}
+ul{
+    list-style-type: none;
 }
 .navbar{
     height: 52px;
@@ -330,6 +336,7 @@ a, a:hover{
 .feature .feature-left{
     width: 579px;
     margin-top: 173px;
+    margin-right: 27px;
 }
 .feature .feature-left .feature-text h5{
     margin-bottom: 25px;
@@ -373,26 +380,33 @@ a, a:hover{
 
 .feature .feature-right{
     width: 564px;
-    margin-top: 98px;
+    margin-top: 164px;
 }
 .feature .feature-right img{
     width: 100%;
 }
-.testomonial{
-
+.testimonial{
+    margin-top: 129px;
+    display: flex;
 }
-.testomonial .testomonial-title{
 
+.testimonial .slider-left{
+    width: 730px;
 }
-.testomonial .testomonial-title h4{
+.testimonial .slider-left .testimonial-title{
+    margin-bottom: 40px;
+}
+.testimonial .slider-left .testimonial-title h4{
     color: var(--primary-color);
     font-family: 'Manrope';
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
     letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-bottom: 13px;
 }
-.testomonial .testomonial-title h3{
+.testimonial .slider-left .testimonial-title h3{
     color: var(--heading-color);
     font-family: 'Manrope';
     font-weight: 800;
@@ -401,16 +415,19 @@ a, a:hover{
     letter-spacing: -0.03em;
     max-width: 324px;
 }
-.testomonial .slider-left{
-
+.testimonial .slider-left .image-card{
+    width: 653px;
+    height: 378px;
+    position: relative;
+    background-color: #F3F7FA;
+    border-radius: 15px;
 }
-.testomonial .slider-left .image-card{
-
+.testimonial .slider-left .image-card .reviewer-info{
+    position: absolute;
+    top: 120px;
+    left: 88px;
 }
-.testomonial .slider-left .image-card .reviewer-info{
-
-}
-.testomonial .slider-left .image-card .reviewer-info h5{
+.testimonial .slider-left .image-card .reviewer-info h5{
     font-family: 'Manrope';
     font-weight: 800;
     font-size: 16px;
@@ -418,7 +435,7 @@ a, a:hover{
     letter-spacing: -0.03em;
     color: var(--heading-color);
 }
-.testomonial .slider-left .image-card .reviewer-info p{
+.testimonial .slider-left .image-card .reviewer-info p{
     font-family: 'Manrope';
     color: var(--text-color);
     font-weight: 400;
@@ -426,9 +443,394 @@ a, a:hover{
     line-height: 24px;
     letter-spacing: -0.02em;
 }
-.testomonial .slider-left .image-card .reviewer-brand{
-
+.testimonial .slider-left .image-card .reviewer-image img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
 }
-.testomonial .slider-right{
+.testimonial .slider-left .image-card .reviewer-brand img{
+    position: absolute;
+    bottom: 43px;;
+    left:25px;
+    z-index: 5;
+}
+.testimonial .slider-left .image-card .shape-1{
+    position: absolute;
+    top: 33px;
+    left: -45px;
+    z-index: 4;
+}
+.testimonial .slider-left .image-card .shape-2{
+    position: absolute;
+    right: -36px;
+    top: 160px;
+    z-index: 6;
+}
+.testimonial .slider-left .image-card .shape-3{
+    position: absolute;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+.testimonial .slider-left .slider-btn{
+    margin-top: 37px;
+}
+.testimonial .slider-left .slider-btn .slider-left-btn{
+    border: 0;
+    border-radius: 50%;
+    padding: 13px;
+    background-color: transparent;
+}
+.testimonial .slider-left .slider-btn .slider-right-btn{
+    border: 0;
+    border-radius: 50%;
+    padding: 13px;
+    background-color: transparent;
+}
+.testimonial .slider-left .slider-btn .slider-left-btn:hover,
+.testimonial .slider-left .slider-btn .slider-right-btn:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.testimonial .slider-right{
+    width: 440px;
+    margin-top: 170px;
+}
+.testimonial .slider-right .testimonial-text .reviewer-text h4{
+    width: 290px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: var(--heading-color);
+}
+.testimonial .slider-right .testimonial-text .reviewer-text .para-1{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-style: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: var(--text-color);
+    margin-bottom: 33px;
+}
+.testimonial .slider-right .testimonial-text .reviewer-text .para-2{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-style: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: var(--text-color);
+    margin-bottom: 14px;
+}
+.testimonial .slider-right .testimonial-text .reviewer-info h5{
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: var(--heading-color);
+}
+.testimonial .slider-right .testimonial-text .reviewer-info p{
+    font-family: 'Manrope';
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+.getstarted{
+    border: 1px solid #DEE1E6;
+    border-radius: 15px;
+    display: flex;
+    margin-top: 63px;
+}
+.getstarted .getstarted-left{
+    width: 795px;
+    margin: 40px 102px 30px 28px;
+}
+.getstarted .getstarted-left p{
+    font-family: 'Manrope';
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+}
+.getstarted .getstarted-right{
+    width: 214px;
+    margin:36px auto; 
+    margin-right: 34px;
+}
+.getstarted .getstarted-right .started-btn{
+    border: 0;
+    padding: 17px 62px;
+    border-radius: 47px;
+    background-color: #FF7F5C;
+    box-shadow: 0px 100px 80px rgba(255, 127, 92, 0.07), 0px 64.8148px 46.8519px rgba(255, 127, 92, 0.0531481), 0px 38.5185px 25.4815px rgba(255, 127, 92, 0.0425185), 0px 20px 13px rgba(255, 127, 92, 0.035), 0px 8.14815px 6.51852px rgba(255, 127, 92, 0.0274815), 0px 1.85185px 3.14815px rgba(255, 127, 92, 0.0168519);
+    color: var(--white-color);
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+}
+.wcu{
+    background-color: #F3F7FA;
+    border-radius: 20px;
+    padding-bottom: 58px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.wcu .wcu-shape img{
+    z-index: 5;
+    position: absolute;
+    top: -31px;
+    left: 75px;
+}
+.wcu .wcu-title{
+    padding-top: 56px;
+    padding-bottom: 69px;
+}
+.wcu .wcu-title h5{
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    padding-bottom: 14px;
+}
+.wcu .wcu-title h3{
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 69px;
+    letter-spacing: -0.03em;
+    color: var(--heading-color);
+}
+.wcu .wcu-items{
+    width: 1010px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+}
+.wcu .wcu-items .wcu-item{
+    width: 485px;
+    padding-top: 59px;
+    padding-right: 48px;
+    padding-bottom: 37px;
+    padding-left: 30px;
+    background: var(--white-color);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 32px;
+}
+.wcu .wcu-items .wcu-item .wcu-item-text{
+    width: 317px;
+}
+.wcu .wcu-items .wcu-item .wcu-item-text h5{
+    font-family: 'Manrope';
+    font-weight: 800;
+    line-height: 33px;
+    font-size: 24px;
+    color-scheme: var(--heading-color);
+}
+.wcu .wcu-items .wcu-item .wcu-item-text span{
+    display: inline-block;
+    padding-top: 22px;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: var(--text-color);
+}
+.newsletter{
+    background-color: var(--primary-color);
+    
+}
+.newsletter .newsletter-section{
+    display: flex;
+    padding-top: 93px;
+    padding-bottom: 56px;
+}
+.newsletter .wrapper .newsletter-left{
+    width: 528px;
+    margin-top: 93px;
+}
+.newsletter .wrapper .newsletter-left h5{
+    
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+.newsletter .wrapper .newsletter-left h3{
+    padding-top: 13px;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: var(--white-color);
+}
+.newsletter .wrapper .newsletter-left p{
+    padding-top: 29px;
+    width: 446px;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: var(--white-color);
+}
+.newsletter .newsletter-right{
+    margin-top: 136px;
+    margin-bottom: 86px;
+    text-align: end;
+}
+.newsletter .newsletter-right .newsletter-form form input{
+    width: 362px;
+    height: 60px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    background: hsl(210, 8%, 95%, 20%) ;
+}
+.newsletter .newsletter-right .newsletter-form form input::placeholder{
+    color:hsl(248, 41%, 79%, 40%);
+    font-family: 'Manrope';
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    padding-left: 22px;
+}
+.newsletter .newsletter-right .newsletter-form input:focus{
+    outline: none;
+}
+.newsletter .newsletter-right .newsletter-form form button{
+    width: 362px;
+    height: 60px;
+    border:none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--white-color);
+    background:#FF7F5C;
+}
+.footer{
+    background: #1B1C31;
+}
+.footer .footer-section .footer-top{
+    display: flex;
+    column-gap: 89px;
+    padding-top: 123px;
+    padding-bottom: 114px;
+}
+.footer .footer-section .footer-top .ftop-left{
+    width: 522px;
+}
+.footer .footer-section .footer-top .ftop-left h4{
+    text-transform: uppercase;
+    font-family: 'Manrope';
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    color: var(--white-color);
+    color: var(--white-color);
+    padding-bottom: 18px;
+}
+.footer .footer-section .footer-top .ftop-left p{
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: hsl(0, 0%, 100%, 40%);
+}
+.footer .footer-section .footer-top .ftop-right{
+    width: 522px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.footer .footer-section .footer-top .ftop-right .company h5{
+    font-family: 'Manrope';
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+.footer .footer-section .footer-top .ftop-right .company ul li a{
+    font-family: 'Manrope';
+    color: var(--white-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
 
+.footer .footer-section .footer-top .ftop-right .product h5{
+    font-family: 'Manrope';
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+.footer .footer-section .footer-top .ftop-right .product ul li, .resource ul li, .company ul li{
+    margin-bottom: 12px;
+}
+.footer .footer-section .footer-top .ftop-right .product ul li a{
+    font-family: 'Manrope';
+    color: var(--white-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer .footer-section .footer-top .ftop-right .resource h5{
+    font-family: 'Manrope';
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+.footer .footer-section .footer-top .ftop-right .resource ul li a{
+    font-family: 'Manrope';
+    color: var(--white-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer .footer-section hr{
+    border: none;
+    padding-top: 1px;
+    background: #404444;
+}
+.footer .footer-section .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footer-section .footer-bottom p{
+    padding: 19px 0;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 26px;
+    color: var(--white-color);
 }
