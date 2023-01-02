@@ -114,6 +114,11 @@ ul {
 
 .banner {
   display: flex;
+  background: url(/images/banner/banner-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 26px;
 }
 
 .banner .banner-left {
@@ -218,6 +223,9 @@ ul {
 
 .payment {
   display: flex;
+  background: url(/images/payment-section/payment-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .payment .payment-left {
@@ -387,6 +395,9 @@ ul {
 
 .feature {
   display: flex;
+  background: url(/images/feature/feature-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .feature .feature-left {
@@ -630,7 +641,9 @@ ul {
 }
 
 .getstarted {
-  border: 1px solid #DEE1E6;
+  background: #FFFFFF;
+  border: .1rem solid #DEE1E6;
+  box-shadow: 0px 2.4rem 3.4rem rgba(0, 0, 0, 0.03);
   border-radius: 1.5rem;
   display: flex;
   margin-top: 6.3rem;
@@ -956,6 +969,3 @@ ul {
   line-height: 2.6rem;
   color: var(--white-color);
 }
-
-
-/*# sourceMappingURL=style.css.map */
