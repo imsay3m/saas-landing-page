@@ -114,7 +114,7 @@ ul {
 
 .banner {
   display: flex;
-  background: url(/images/banner/banner-bg.png);
+  background: url(../images/banner/banner-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -223,7 +223,7 @@ ul {
 
 .payment {
   display: flex;
-  background: url(/images/payment-section/payment-bg.png);
+  background: url(../images/payment-section/payment-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -395,7 +395,7 @@ ul {
 
 .feature {
   display: flex;
-  background: url(/images/feature/feature-bg.png);
+  background: url(../images/feature/feature-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
