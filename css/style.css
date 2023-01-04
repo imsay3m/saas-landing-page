@@ -111,6 +111,9 @@ ul {
   font-size: 1.4rem;
   line-height: 1.9rem;
 }
+.mobile-nav{
+  display: none;
+}
 
 .banner {
   display: flex;
@@ -213,12 +216,10 @@ ul {
 }
 
 .brand .brand-image {
+  display: flex;
+  justify-content: space-between;
   width: 107rem;
   margin: 0 auto;
-}
-
-.brand .brand-image img {
-  margin-right: 4.4rem;
 }
 
 .payment {
@@ -771,9 +772,11 @@ ul {
 }
 
 .newsletter .newsletter-section {
+  background-color: var(--primary-color);
   display: flex;
   padding-top: 9.3rem;
   padding-bottom: 5.6rem;
+  justify-content: space-between;
 }
 
 .newsletter .wrapper .newsletter-left {
@@ -814,12 +817,15 @@ ul {
 .newsletter .newsletter-right {
   margin-top: 13.6rem;
   margin-bottom: 8.6rem;
-  text-align: end;
+  width: 362px;
+}
+.newsletter .newsletter-right .newsletter-form form{
+  display: flex;
+  flex-direction: column;
 }
 
 .newsletter .newsletter-right .newsletter-form form input {
-  width: 36.2rem;
-  height: 6rem;
+  padding: 2.2rem 17.4rem 2.2rem 2.2rem;
   margin-bottom: 2.4rem;
   border: none;
   border-radius: 0.5rem;
@@ -832,7 +838,6 @@ ul {
   font-size: 2rem;
   line-height: 3rem;
   letter-spacing: -0.02em;
-  padding-left: 2.2rem;
 }
 
 .newsletter .newsletter-right .newsletter-form input:focus {
@@ -840,8 +845,7 @@ ul {
 }
 
 .newsletter .newsletter-right .newsletter-form form button {
-  width: 36.2rem;
-  height: 6rem;
+  padding: 1.5rem 12.7rem;
   border: none;
   border-radius: 0.5rem;
   text-transform: uppercase;
@@ -859,6 +863,7 @@ ul {
 }
 
 .footer .footer-section .footer-top {
+  background: #1B1C31;
   display: flex;
   column-gap: 8.9rem;
   padding-top: 12.3rem;
@@ -957,6 +962,7 @@ ul {
 }
 
 .footer .footer-section .footer-bottom {
+  background: #1B1C31;
   display: flex;
   justify-content: space-between;
 }
