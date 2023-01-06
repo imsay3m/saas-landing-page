@@ -9,7 +9,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: 1px solid red;
 }
+
 
 html {
   font-size: 10px;
@@ -45,32 +47,22 @@ ul {
 }
 
 .navbar {
-  height: 5.2rem;
   display: flex;
-}
-
-.navbar .logo {
-  height: 5.2rem;
-  width: 20rem;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar .logo img {
-  margin-top: 4.1rem;
-}
-
-.navbar .menu {
-  height: 5.2rem;
-  width: 60rem;
+  margin-top: 5.2rem;
 }
 
 .navbar .menu ul {
-  margin-left: 18.3rem;
-}
-
-.navbar .menu ul li {
-  display: inline-block;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  column-gap: 3.9rem;
   margin-top: 4.7rem;
-  margin-left: 3.9rem;
 }
 
 .navbar .menu ul li a {
@@ -81,13 +73,14 @@ ul {
 }
 
 .navbar .menu ul li a i {
-  margin: 0.7rem auto 0.7rem 1.2rem;
+  margin-left: 1.2rem;
 }
 
 .navbar .nav-button {
-  height: 10rem;
-  width: 37rem;
-  text-align: right;
+  display: flex;
+  flex-flow:row wrap;
+  align-items: center;
+  margin-top: 4.7rem;
 }
 
 .navbar .nav-button .signin-btn {
@@ -96,7 +89,6 @@ ul {
   font-weight: 400;
   font-size: 1.4rem;
   display: inline-block;
-  margin-top: 4.7rem;
   margin-right: 4.7rem;
 }
 
